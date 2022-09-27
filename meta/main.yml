@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: skeleton
-  description: configure skeleton
+  description: dginhoux.skeleton
   author: Dany GINHOUX
   company: dginhoux
   license: MIT
