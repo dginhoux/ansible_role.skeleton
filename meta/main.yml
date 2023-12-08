@@ -1,7 +1,8 @@
 ---
 galaxy_info:
   role_name: skeleton
-  description: dginhoux.skeleton
+  description: |
+    skeleton
   author: Dany GINHOUX
   company: dginhoux
   license: MIT
@@ -9,21 +10,16 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-        - buster
-        - bullseye
-        - bookworm
-    - name: Fedora
-      versions:
-        - "33"
-        - "34"
-        - "35"
-        - "36"
-        - "37"
-        - "38"
+        - all
     - name: EL
       versions:
-        - "7"
-        - "8"
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
   galaxy_tags:
     - skeleton
 
