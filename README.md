@@ -49,9 +49,10 @@ git clone https://github.com/dginhoux/ansible_role.skeleton dginhoux.skeleton
 #### EXAMPLE PLAYBOOK
 
 ```yaml
-- hosts: all
-  roles:
-    - name: start role dginhoux.skeleton
+- name: Playbook
+  hosts: all
+  tasks:
+    - name: Start role dginhoux.skeleton
       ansible.builtin.include_role:
         name: dginhoux.skeleton
 ```
@@ -61,7 +62,10 @@ git clone https://github.com/dginhoux/ansible_role.skeleton dginhoux.skeleton
 
 #### DEFAULT VARIABLES
 
-Defaults variables defined in `defaults/main.yml` : 
+Defaults variables defined in `defaults/main.yml` 
+
+
+#### EXAMPLES VARIABLES
 
 ```yaml
 
